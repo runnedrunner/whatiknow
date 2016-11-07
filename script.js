@@ -15,4 +15,3 @@ var formattedExample = $("<pre>")
 formattedExample.text(functionString);
 
 consoleLogExample.html(formattedExample);
-
