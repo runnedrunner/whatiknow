@@ -2,7 +2,7 @@
 function logArgs(args) {
   console.log(args)
 }
-
+function coolfunction(
 var functionString = logArgs.toString();
 console.log(functionString)
 var consoleLogExample = $("#console-log-example")
