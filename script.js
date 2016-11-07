@@ -1,7 +1,7 @@
 // demo function
 function logArgs(args) {
   console.log(args)
-  // This will console 
+  // This will console log a console
 }
 function coolfunction(args) {
   return 0;
