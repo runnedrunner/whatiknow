@@ -10,6 +10,6 @@ var consoleLogExample = $("#console-log-example")
 
 var formattedExample = $("<pre>")
 
-formattedExample.text(contents)
+formattedExample.text(functionString);
 
 consoleLogExample.html(formattedExample)
