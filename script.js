@@ -6,8 +6,10 @@ function logArgs(args) {
 
 var functionString = logArgs.toString();
 console.log(functionString)
+var consoleLogExample = $("#console-log-example")
 
-var formattedExample = $("<pre>");
-formattedExample.text(funcionString);
+var formattedExample = $("<pre>")
+
+formattedExample.text(contents)
 
 consoleLogExample.html(formattedExample)
