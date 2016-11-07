@@ -8,7 +8,7 @@ var functionString = logArgs.toString();
 console.log(functionString)
 var consoleLogExample = "how do I get the element where I want to put the example?"
 
-var formattedExample = $("<pre>")+functionString
-formattedExample.html("stuff");
+var formattedExample = $("<pre>");
+formattedExample.html(funcionString);
 
 consoleLogExample.html(formattedExample)
