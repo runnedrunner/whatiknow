@@ -17,9 +17,9 @@ formattedExample.text(functionString);
 
 consoleLogExample.html(formattedExample);
 
-var functionString = logArgs.toString();
+var functionString = coolfunction.toString();
 console.log(functionString)
-var consoleLogExample = $("#console-log-example")
+var consoleLogExample = $("#cool-function-example")
 
 var formattedExample = $("<pre>")
 
