@@ -5,7 +5,7 @@ function logArgs(args) {
 }
 
 function coolfunction(args) {
-  return 0;
+  return args;
 }
 var functionString = coolfunction.toString();
 console.log(functionString)
