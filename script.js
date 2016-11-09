@@ -7,9 +7,9 @@ function logArgs(args) {
 function coolfunction(args) {
   return 0;
 }
-var functionString = logArgs.toString();
+var functionString = coolfunction.toString();
 console.log(functionString)
-var consoleLogExample = $("#console-log-example")
+var consoleLogExample = $("#cool-function-example")
 
 var formattedExample = $("<pre>")
 
@@ -17,9 +17,9 @@ formattedExample.text(functionString);
 
 consoleLogExample.html(formattedExample);
 
-var functionString = coolfunction.toString();
+var functionString = logArgs.toString();
 console.log(functionString)
-var consoleLogExample = $("#cool-function-example")
+var consoleLogExample = $("#console-log-example")
 
 var formattedExample = $("<pre>")
 
