@@ -16,3 +16,13 @@ var formattedExample = $("<pre>")
 formattedExample.text(functionString);
 
 consoleLogExample.html(formattedExample);
+
+var functionString = logArgs.toString();
+console.log(functionString)
+var consoleLogExample = $("#console-log-example")
+
+var formattedExample = $("<pre>")
+
+formattedExample.text(functionString);
+
+consoleLogExample.html(formattedExample);
