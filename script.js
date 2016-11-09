@@ -8,6 +8,9 @@ function coolfunction(args) {
   return args;
 }
 
+$("#button" ).click(function() {
+  console.log("hi!");
+});
 var functionString = coolfunction.toString();
 console.log(functionString)
 var consoleLogExample = $("#cool-function-example")
