@@ -8,9 +8,9 @@ function coolfunction(args) {
   return args;
 }
 
-$("#button" ).click(function() {
+function jquerything({$("#button" ).click(function() {
   console.log("hi!");
-});
+})});
 var functionString = coolfunction.toString();
 console.log(functionString)
 var consoleLogExample = $("#cool-function-example")
@@ -31,9 +31,9 @@ formattedExample.text(functionString);
 
 consoleLogExample.html(formattedExample);
 
-var functionString = logArgs.toString();
+var functionString = jquerything.toString();
 console.log(functionString)
-var consoleLogExample = $("#console-log-example")
+var consoleLogExample = $("#jquery-example-example")
 
 var formattedExample = $("<pre>")
 
